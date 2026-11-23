@@ -22,22 +22,17 @@ An interactive web-based fireworks animation program built for the Git & GitHub 
 
 ## 🛠️ Technologies Used
 
-* Python (Standard Library)
 * HTML5
 * CSS3
 * JavaScript (Canvas API)
 
-> 💡 **Note:** This project relies entirely on Python's built-in standard library (`webbrowser`, `tempfile`, `os`, `pathlib`). No external Python packages, Node.js, or package managers are required! You can replace `workshop-banner.png` with your own image to customize your repository banner.
+> 💡 **Note:** This project is a single self-contained `index.html` file. No Python, Node.js, or package managers are required — just open it in any modern browser. You can replace `workshop-banner.png` with your own image to customize your repository banner.
 
 ## ▶️ How to Run
 
-Make sure Python 3 is installed on your computer, then run:
+Simply open `index.html` in your default web browser (double-click it, or drag it into a browser window).
 
-```bash
-python fireworks.py
-```
-
-Running this command will generate a temporary interactive webpage and automatically open it in your default web browser (works cross-platform on macOS and Windows).
+No installation or build step is required. Because it's pure static HTML, it can also be deployed to any static host (e.g., Vercel, GitHub Pages, Netlify).
 
 ## 📸 Preview
 
